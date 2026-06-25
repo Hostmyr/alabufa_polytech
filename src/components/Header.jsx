@@ -1,6 +1,5 @@
 import React from 'react';
 import { Assessment, Class, ContactPhone } from '@mui/icons-material';
-import logo from '../assets/alabuga_logo';
 
 const Header = () => {
   return (
@@ -8,7 +7,7 @@ const Header = () => {
       <div className="header-content">
         <div className="logo">
           <img 
-            src={logo} 
+            src="./alabuga_logo.png" 
             alt="Алабуга Политех" 
             className="logo-image"
           />
