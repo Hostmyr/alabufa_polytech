@@ -92,7 +92,7 @@ function App() {
               
               <div className="footer-column footer-social">
                 <div className="footer-logo">
-                  <img src="/alabuga_logo.png" alt="Алабуга Политех" />
+                  <img src="./alabuga_logo.png" alt="Алабуга Политех" />
                 </div>
                 <div className="social-links">
                   <a href="#" className="social-link" aria-label="Telegram">
