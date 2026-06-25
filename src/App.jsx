@@ -5,6 +5,13 @@ import Results from './components/Results';
 import ContactForm from './components/ContactForm';
 import Specialties from './components/Specialties';
 import { LocationOn, Phone, Email } from '@mui/icons-material';
+import { ReactComponent as TelegramIcon } from './assets/social-telegram.png';
+import { ReactComponent as VKIcon } from './assets/social-vk.png';
+import { ReactComponent as TikTokIcon } from './assets/social-tiktok.png';
+import logo from './assets/logo.png';
+import telegramIcon from './assets/social-telegram.png';
+import vkIcon from './assets/social-vk.png';
+import tiktokIcon from './assets/social-tiktok.png';
 import './App.css';
 
 function App() {
@@ -89,25 +96,24 @@ function App() {
                   <li><a href="https://polytech.alabuga.ru/news">Новости</a></li>
                 </ul>
               </div>
-              
-             <div className="footer-column footer-social">
-            <div className="footer-logo">
-              <img src="/logo.png" alt="Алабуга Политех" />
-            </div>
-            <div className="social-links">
-              <a href="https://t.me/alabugapolytech" className="social-link" aria-label="Telegram">
-                <img src="/social-telegram.png" alt="Telegram" />
-              </a>
-              <a href="https://vk.com/alabugapolytech" className="social-link" aria-label="ВКонтакте">
-                <img src="/social-vk.png" alt="ВКонтакте" />
-              </a>
-              <a href="https://www.tiktok.com/@a_polytech" className="social-link" aria-label="TikTok">
-                <img src="/social-tiktok.png" alt="TikTok" />
-              </a>
+            <div className="footer-column footer-social">
+              <div className="footer-logo">
+                <img src={logo} alt="Алабуга Политех" />
+              </div>
+              <div className="social-links">
+                <a href="#" className="social-link" aria-label="Telegram">
+                  <img src={telegramIcon} alt="Telegram" />
+                </a>
+                <a href="#" className="social-link" aria-label="ВКонтакте">
+                  <img src={vkIcon} alt="ВКонтакте" />
+                </a>
+                <a href="#" className="social-link" aria-label="TikTok">
+                  <img src={tiktokIcon} alt="TikTok" />
+                </a>
+              </div>
             </div>
           </div>
             </div>
-            
             <div className="footer-bottom">
               <div className="footer-legal">
                 <p>АО ОЭЗ ППТ «Алабуга»</p>
