@@ -1,6 +1,6 @@
 import React from 'react';
 import { Assessment, Class, ContactPhone } from '@mui/icons-material';
-import logo from './assets/alabuga_logo.png';
+import logo from './assets/alabuga_logo';
 
 const Header = () => {
   return (
