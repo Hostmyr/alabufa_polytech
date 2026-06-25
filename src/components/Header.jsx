@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header-content">
         <div className="logo">
           <img 
-            src="/alabuga_logo.png" 
+            src="/alabuga_polytech/alabuga_logo.png" 
             alt="Алабуга Политех" 
             className="logo-image"
           />
