@@ -8,7 +8,7 @@ import { LocationOn, Phone, Email } from '@mui/icons-material';
 import { ReactComponent as TelegramIcon } from './assets/social-telegram.png';
 import { ReactComponent as VKIcon } from './assets/social-vk.png';
 import { ReactComponent as TikTokIcon } from './assets/social-tiktok.png';
-import logo from './assets/logo.png';
+import logo from './assets/alabuga_logo.png';
 import telegramIcon from './assets/social-telegram.png';
 import vkIcon from './assets/social-vk.png';
 import tiktokIcon from './assets/social-tiktok.png';
